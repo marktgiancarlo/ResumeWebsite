@@ -1,0 +1,83 @@
+:root {
+  background: #253237;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: #C2DFE3;
+}
+
+h1 {
+  font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+  font-size: 6rem;
+  color: #E0FBFC;
+}
+
+h2 {
+  font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+  font-size: 4rem;
+  color: #E0FBFC;
+}
+
+h3 {
+  font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  color: #C2DFE3;
+}
+
+p {
+  font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  color: #C2DFE3;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav {
+  text-align: center;
+}
+
+.footer {
+  color: #E0FBFC;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  width: 100%;
+}
+
+.project-image {
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #253237;
+}
+
+.projects-section {
+  text-align: center;
+  background: #5C6B73;
+}
+
+.projects-section-header {
+  margin: 0 auto 4rem auto;
+}
+
+.contact-section {
+  text-align: center;
+}
